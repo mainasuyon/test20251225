@@ -3,7 +3,7 @@ import pyxel
 msize = 15
 pyxel.init(msize*11, msize*11)
 
-pyxel.cls(7)
+pyxel.cls(8)
 
 pyxel.mouse(True)
 
