@@ -14,7 +14,7 @@ class App:
         pyxel.mouse(True)
 
         ## 問題ファイルを読み込む
-        with open('test03.txt') as f:
+        with open('test04.txt') as f:
             inputline = f.readlines()
 
             self.ymax = int(inputline[0])
@@ -105,3 +105,4 @@ class App:
 
 
 App()
+
