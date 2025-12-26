@@ -35,8 +35,6 @@ class App:
                 for i in range(xmax):
                     self.bbb.append(self.aaa[j*xmax+i])
 
-            self.bbb[3] = 4
-
         pyxel.run(self.update, self.draw)
 
     def update(self):
@@ -105,4 +103,5 @@ class App:
 
 
 App()
+
 
